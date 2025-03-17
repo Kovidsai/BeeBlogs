@@ -1,0 +1,4 @@
+->> Index Page
+
+1. Set Up Nav Bar then Design CSS Page for it
+2. Now what to how on index page?

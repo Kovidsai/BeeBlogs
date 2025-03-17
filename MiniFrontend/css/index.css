@@ -1,0 +1,127 @@
+/* body{
+  background: rgb(206, 207, 161);
+} */
+body {
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20x;
+  z-index: 1000;
+  width: 100%;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  /* color: rgb(250, 235, 215); */
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+
+.welcome {
+  background: url("https://source.unsplash.com/1600x900/?writing,blog")center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh-40px);
+  margin-top: 40px;
+}
+
+.welcome-content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  border-radius: 10px;
+  max-width: 90%;
+  width: 80%;
+  text-align: center;
+}
+
+.welcome h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.welcome p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.auth {
+  margin-top: 20px;
+}
+.auth button {
+  background: #ffd700;
+  border: none;
+  color: black;
+  padding: 12px 25px;
+  font-size: 1rem;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.auth button :hover {
+  background: #ffcc00;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.feature {
+  width: 30%;
+  padding: 20px;
+  background: #e3e3e3;
+  border-radius: 8px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.features :hover {
+  background: #ffd700;
+}
+.footer {
+  background: #7e4747;
+  color: white;
+  text-align: center;
+  padding: 10x;
+}

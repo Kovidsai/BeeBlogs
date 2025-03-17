@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>Simple Blog API</title>
+
+    <link rel="stylesheet" href="css/dashboard.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="profile-icon" id="profileIcon">U</div>
+    </header>
+
+    <aside class="sidebar" id="sidebar">
+      <nav class="nav-links">
+        <a href="dashboard.html">🏠 Home</a>
+        <a href="post.html">✍️ Post a Blog</a>
+        <a href="profile.html">👤 My Profile</a>
+        <a href="logout.html">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <h1>Welcome to the Dashboard</h1>
+      <p>Here you can see and interact with blogs.</p>
+
+      <section class="blogs-container">
+        <div id="blogs"></div>
+      </section>
+    </main>
+    <script src="js/dashboard.js"></script>
+  </body>
+</html>

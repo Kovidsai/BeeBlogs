@@ -1,0 +1,70 @@
+/* Profile Icon */
+.profile-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #ffd700;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+/* Sidebar - Initially Hidden */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: white;
+    color: #333;
+    position: fixed;
+    left: -260px; /* Hidden */
+    top: 0;
+    transition: left 0.3s ease-in-out;
+    padding-top: 20px;
+    opacity: 1;
+}
+
+/* Show Sidebar */
+.sidebar.show {
+    left: 0;
+}
+
+/* Profile Section */
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #ffd700;
+}
+
+/* Main Content */
+.content {
+    text-align: center;
+    padding: 50px;
+}

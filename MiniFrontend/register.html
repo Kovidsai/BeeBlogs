@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration page</title>
+    <link rel="stylesheet" href="css/register.css" />
+  </head>
+  <body>
+    <a href="index.html" class="back-home"> &#8592; Back to Home </a>
+    <form id="register-form" class="form-container">
+      <div class="form-header">Create a New Account</div>
+      <div class="form-group">
+        <label for="name">User Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" />
+      </div>
+
+      <button type="submit">Register</button>
+    </form>
+    <script src="js/register.js"></script>
+  </body>
+</html>
